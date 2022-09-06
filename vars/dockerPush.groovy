@@ -1,6 +1,6 @@
 import com.example.Docker
 
-def call(string imageName)
+def call(String imageName)
 {
     retunr new Docker(this).dockerLogin(imageName)
 }
